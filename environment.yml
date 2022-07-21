@@ -4,9 +4,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - lightgbm=3.3.2
   - matplotlib=3.5.2
   - numpy=1.23.1
   - pandas=1.4.3
+  - pmdarima=1.8.5
   - python=3.9.13
   - pytorch=1.12.0
   - scikit-learn=1.1.1
@@ -15,5 +17,7 @@ dependencies:
   - seaborn-base=0.11.2
   - statsmodels=0.13.2
   - torchvision=0.13.0
+  - tdqm
   - pip:
     - notexbook-theme==2.0.1
+    - prophet==1.1
